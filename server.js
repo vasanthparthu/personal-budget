@@ -11,7 +11,7 @@ app.get('/', (req,res) => {
     res.send('Hello world');
     });
     app.get('/budget', (req, res) => {
-        res.sendFile("C:\\Users\\VASANTH\\Desktop\\NBAD\\personal-budget\\personal-budget.json");
+        res.sendFile("personal-budget.json");
     })
 
 app.listen(port, () => {
